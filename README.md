@@ -1,9 +1,13 @@
 # OHW22 ENSO Prediction
-### Data description
+#### Summary
+We propose a project to develop a framework for ENSO prediction using a range of machine learning approaches and benchmark their skill against other methods. Identify observables that are most relevant for ENSO predictability at a particular timescale.
+
+
+#### Data description
 - Coarsened CESM2 Large Ensemble members (SST fields) from 1° to 3° resolution 
 - Used the first 10 of 100 CESM2 LE members
 
-### Deep learning components
+#### Deep learning components
 - 2D CNN (relu/selu, adam/nadam/adamx)
 - 3D CNN (relu/selu, adam/nadam/adamx)
 - EOF/LSTM
