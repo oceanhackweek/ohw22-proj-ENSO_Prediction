@@ -15,3 +15,6 @@ We propose a project to develop a framework for ENSO prediction using a range of
 - Transformers?
 - Create a baseline method to compare these methods to (i.e. persistence method, AR1 model)
 - Interpretability– why do the results look this way?
+
+#### Opportunities for growth
+- EOF-LSTM: Instead of EOFs, we can use a CNN to predict one number (or however number modes we want to keep). This is a more complicated dimension reduction than PCA and then use LSTM. So CNN then LSTM as the workflow. 
